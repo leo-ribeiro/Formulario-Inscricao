@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+}
+
+.coluna2 {
+    width: 50%;
+}
+
+body {
+    background-image: url('./images/bg-intro-desktop.png');
+    background-blend-mode: luminosity;
+    background-color: #FF8383;
+}
+
+#button {
+    background-color: rgb(115, 27, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+.texto {
+    float: center center;
+    width: 50%;
+    color: white;
+    
+}
+
+.formulario {
+    background-color: white;
+    
+}
