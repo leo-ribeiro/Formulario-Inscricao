@@ -3,10 +3,17 @@ body {
     background-color: hsl(0, 100%, 74%);;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
 .intro {
     color: white;
-    text-align: left;
-    margin: 60px 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 fieldset {
@@ -15,10 +22,13 @@ fieldset {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    width: 22em;
+    align-items: center;
   }
 
 #promo {
     background-color: hsl(248, 32%, 49%);
+    align-items: center;
 }
 
 #teste {
