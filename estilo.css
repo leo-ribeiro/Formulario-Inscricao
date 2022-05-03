@@ -7,6 +7,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 15px;
+    padding-top: 100px;
 }
 
 .intro {
@@ -14,6 +15,11 @@ body {
     padding: 15px;
     display: flex;
     flex-direction: column;
+    padding-top: 100px;
+}
+
+.tamanho {
+    text-align: center;
 }
 
 fieldset {
@@ -26,11 +32,20 @@ fieldset {
     align-items: center;
   }
 
+form {
+
+  }
+
 #promo {
     background-color: hsl(248, 32%, 49%);
-    align-items: center;
+    font-size: 15px;
+    color: white;
 }
 
 #teste {
     background-color: hsl(154, 59%, 51%);
+}
+
+#termo {
+    font-size: 10px;
 }
