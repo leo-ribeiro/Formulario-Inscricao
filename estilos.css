@@ -8,6 +8,8 @@
 
 .coluna2 {
     width: 50%;
+    padding: 10%;
+    
 }
 
 body {
@@ -25,8 +27,7 @@ body {
     display: inline-block;
     font-size: 15px;
     color: white;
-    text-decoration: none;
-    margin: 20px 20px;
+    margin: 10px;
     cursor: pointer;
 }
 
@@ -39,5 +40,5 @@ body {
 
 .formulario {
     background-color: white;
-    
+    text-align: center;
 }
