@@ -2,14 +2,12 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 50%;
+#container {
+
 }
 
 .coluna2 {
-    width: 50%;
     padding: 10%;
-    
 }
 
 body {
@@ -24,7 +22,6 @@ body {
     border: none;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 15px;
     color: white;
     margin: 10px;
@@ -32,13 +29,14 @@ body {
 }
 
 .texto {
-    float: center center;
-    width: 50%;
-    color: white;
-    
+    color: white;  
+	float: left;  	
+	width: 440px;
 }
 
 .formulario {
     background-color: white;
     text-align: center;
+	float: left;  	
+	width: 200px;
 }
