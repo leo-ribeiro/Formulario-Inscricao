@@ -4,50 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Componente de Introdução com Formulário de Inscrição</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="estilo.css" />
+
+    <title>Componente de Introdução com Fomrulário de Inscrição</title>
+
 </head>
+
 <body>
-
-    <div class="textos">
-
-    <h1 id="texto1">Aprenda a codificar observando os outros</h1>
-
-    <h2 id="texto2">Veja como desenvolvedores experientes resolvem problemas em tempo real. Assistir a tutoriais com script é ótimo,
-    mas entender como os desenvolvedores pensam é inestimável.</h2>
-
-   </div> 
-  
-   <div class="coluna2">
-
- <input type="button" id="button" value="Experimente grátis por 7 dias e depois R$ 20/mês. Depois disso">
-  
-  <form class="formulario">
-  <label for="primnome"></label><br>
-  <input type="text" id="primnome" name="primnome" placeholder="Primeiro Nome"><br><br>
-  <label for="segnome"></label><br>
-  <input type="text" id="segnome" name="segnome" placeholder="Segundo Nome"><br><br>
-  <label for="email"></label><br>
-  <input type="email" id="email" name="email" placeholder="Endereço de E-mail"><br><br> 
-  <label for="pwd"></label><br>
-  <input type="password" id="pwd" name="pwd" placeholder="Senha"><br><br>
-  <input type="submit" value="Enviar">
-  </form>
-    <br>
-    <br>
-  <label for="avaliacao">Reivindique sua avaliação gratuita</label> 
-   <br>
-
-   <p>Ao clicar no botão, você concorda com nossos Termos e Serviços</p>
-
-</div>
-
-
-   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Leonardo Ribeiro</a>.
-    </p>
-  </footer>
+    <main>
+      <div class="container">
+        <section class="intro">
+          <h1>Aprenda a codificar observando os outros</h1>
+          <p>
+            Veja como desenvolvedores experientes resolvem problemas em tempo real. Assistir a tutoriais com script é ótimo, mas entender como os desenvolvedores trabalham é inestimável.
+          </p>
+        </section>
+        <section class="body">
+          <button class="promo">
+            <b> Experimente grátis 7 dias</b> Depois só paga R$ 20,00 por mês.
+          </button>
+          <form autocomplete="off">
+            <input type="text" class="pnome" placeholder="Primeiro Nome" />
+            <div class="input__container hidden">
+              <span class="input__icon"
+                ><img src="./images/icon-error.svg" alt=""
+              /></span>
+              <span class="input__span"
+                ><i> O Nome não pode ficar vazio! </i></span
+              >
+            </div>
+            <input type="text" class="snome" placeholder="Sobrenome" />
+            <div class="input__container hidden">
+              <span class="input__icon"
+                ><img src="./images/icon-error.svg" alt=""
+              /></span>
+              <span class="input__span"><i>Sobrenome não pode ficar vazio!</i></span>
+            </div>
+            <input type="text" class="email" placeholder="Digite o Email" />
+            <div class="input__container hidden">
+              <span class="input__icon"
+                ><img src="./images/icon-error.svg" alt="" /></span
+              ><span class="input__span input_span--email"
+                >Por favor, digite um endereço de email válido.</span
+              >
+            </div>
+            <input type="password" class="password" placeholder="Digite a senha" />
+            <div class="input__container hidden">
+              <span class="input__icon"
+                ><img src="./images/icon-error.svg" alt="" /></span
+              ><span class="input__span input_span--pass"
+                >Senha não pode ficar vazio</span
+              >
+            </div>
+            <button class="subscribe">SOLICITE SEU TESTE GRATUITO</button>
+            <div class="terms">
+                Ao clicar no botão, você concorda com nossos
+              <a href="#"> Termos e Serviços </a>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    
+</body>
 </html>
