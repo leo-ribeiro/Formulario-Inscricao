@@ -1,6 +1,6 @@
 # Formulário de Inscrição.
 
-# Projeto para a Comunidade Code. 
+## Projeto 01 - Comunidade Code. 
 
-* Mentoria do Pedro Marins e Henrique de Andrade.
+* Mentoria Conquiste Sua Vaga com Pedro Marins e Henrique de Andrade.
 
